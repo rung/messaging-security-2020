@@ -10,7 +10,7 @@
   - [Google Docs版(推奨)](https://docs.google.com/document/d/1SZbOlOcEF8BuuQfeTc1BQ6JFk9S83kpdYrLlrLh02sU/edit)
   - [PDF版](messaging-security-2020.pdf)
 - [なぜ上記文書を書いたのか](#なぜ上記文書を書いたのか)
-- [目次・各章の要点](#目次・各章の要点)
+- [目次・各章の要点](#目次各章の要点)
 - [参考文献](#参考文献)
 - [注意事項](#注意事項)
 
@@ -93,12 +93,13 @@ End-to-end暗号化については、様々なアプローチや制約がある�
 
 ### Chapter 6: WhatsAppとSignal - メール以外のメッセージングアプリの普及とE2E暗号化のもたらすもの
 #### 要点
-- 2016年、アメリカにおいて主に利用されているメッセージングアプリであるWhatsApp、Facebook MessangerはSignal Protocolという暗号化プロトコルを採用したEnd-to-end暗号化を開始した
+- 2016年、アメリカにおいて主に利用されているメッセージングアプリであるWhatsApp、Facebook MessengerはSignal Protocolという暗号化プロトコルを採用したEnd-to-end暗号化を開始した
 - Signal ProtocolによるEnd-to-end暗号化を用いると、メールでのPGP暗号化では提供されなかった多くのセキュリティ機能が提供される
+  - メールのような分散型ではなく、中央サーバと通信する形式であり、中央サーバさえ信用できれば、メッセージの送信元・送信先は保証されている
   - 中央サーバを信用しない場合でも、手動での認証を提供する
   - 暗号鍵はPGPと違い、メッセージ送信先ごとに違う鍵が使用される。秘密鍵から全ての過去のメッセージを復号できる状態ではなく、前方秘匿性（PFS）がある
   - また、過去だけでなく、将来のメッセージも読めないようになっている。（Break-in recovery）
-- 同じSignal ProtocolでEnd-to-end暗号化をしていると言っても、各社でMetadataの収集ついては方針が異なっている。Signalは可能な限り全てのMetadataをEnd-to-endで暗号化する方針である一方、Facebook社のWhatsAppは、中央サーバで一定の情報を収集する。
+- 同じSignal ProtocolでEnd-to-end暗号化をしていると言っても、各社でMetadataの収集については方針が異なっている。Signalは可能な限り全てのMetadataをEnd-to-endで暗号化する方針である一方、Facebook社のWhatsAppは、中央サーバで一定の情報を収集する。
 
 ### Chapter 7: おわりに
 - 最後に、各国政府からのEnd-to-end暗号化への批判などがあることを説明している
