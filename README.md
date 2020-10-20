@@ -8,7 +8,7 @@
 
 - 文書リンク
   - [Google Docs版(推奨)](https://docs.google.com/document/d/1SZbOlOcEF8BuuQfeTc1BQ6JFk9S83kpdYrLlrLh02sU/edit)
-  - [PDF版](messaging-security-2020.pdf)
+  - [PDF版](https://github.com/rung/messaging-security-2020/raw/main/messaging-security-2020.pdf)
 - [なぜ上記文書を書いたのか](#なぜ上記文書を書いたのか)
 - [目次・各章の要点](#目次各章の要点)
 - [参考文献](#参考文献)
@@ -25,7 +25,7 @@
 
 |[Google Docs版 (推奨)](https://docs.google.com/document/d/1SZbOlOcEF8BuuQfeTc1BQ6JFk9S83kpdYrLlrLh02sU/edit)|[PDF版](messaging-security-2020.pdf)|
 |---|---|
-|[<img src="img/docs-google.png" width="300px">](https://docs.google.com/document/d/1SZbOlOcEF8BuuQfeTc1BQ6JFk9S83kpdYrLlrLh02sU/edit)|[<img src="img/docs-pdf.png" width="300px">](messaging-security-2020.pdf)|
+|[<img src="img/docs-google.png" width="300px">](https://docs.google.com/document/d/1SZbOlOcEF8BuuQfeTc1BQ6JFk9S83kpdYrLlrLh02sU/edit)|[<img src="img/docs-pdf.png" width="300px">](https://github.com/rung/messaging-security-2020/raw/main/messaging-security-2020.pdf)|
 
 
 ## なぜ上記文書を書いたのか
