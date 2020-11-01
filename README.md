@@ -148,7 +148,7 @@ End-to-end暗号化については、様々なアプローチや制約がある�
     - [M3AAWG Email Authentication Recommended Best Practices](https://www.m3aawg.org/sites/default/files/m3aawg-email-authentication-recommended-best-practices-09-2020.pdf)
     - [Postfix Documentation](http://www.postfix.org/documentation.html)
     - [STARTTLS Everywhere](https://starttls-everywhere.org/)
-    - RFC821: SIMPLE MAIL TRANSFER PROTOCOL
+    - RFC5321: SIMPLE MAIL TRANSFER PROTOCOL
     - RFC3207: SMTP Service Extension for Secure SMTP over Transport Layer Security
     - RFC8461: SMTP MTA Strict Transport Security （MTA-STS）
     - RFC7208: Sender Policy Framework （SPF） for Authorizing Use of Domains in Email, Version 1
